@@ -2,7 +2,7 @@ plugins {
     id("com.android.application")
     id("kotlin-android")
     id("kotlin-kapt")
-    id("androidx.navigation.safeargs.kotlin")
+    id("androidx.navigation.safeargs")
     id("dagger.hilt.android.plugin")
 }
 
@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId = "dev.spikeysanju.expensetracker"
         minSdk = 21
-        targetSdk = 30
+        targetSdk = 31
         versionCode = 1
         versionName = "v1.0.0-alpha01"
 
